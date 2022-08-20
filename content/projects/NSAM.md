@@ -1,5 +1,5 @@
 ---
-date: '2020-03-27'
+date: '2022-03-27'
 title: 'NSAM Tools'
 github: ''
 external: ''

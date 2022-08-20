@@ -9,6 +9,7 @@ module.exports = {
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '',
   },
+  pathPrevix: '/resume',
   plugins: [
     `gatsby-plugin-react-helmet`,
     `gatsby-plugin-styled-components`,
@@ -22,7 +23,7 @@ module.exports = {
       options: {
         name: 'RezaFahlevi',
         short_name: 'Reza',
-        start_url: '/resume',
+        start_url: '/',
         background_color: config.colors.darkNavy,
         theme_color: config.colors.navy,
         display: 'minimal-ui',
