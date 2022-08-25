@@ -6,7 +6,7 @@
     "workLink": "https://www.guesehat.com/",
     "button": {
         "text": "Check out my resume",
-        "link": "https://github.com/rezarffahlevi"
+        "link": "./resume.pdf"
     },
     "resume": "./resume.pdf",
     "github": "https://github.com/rezarffahlevi",
