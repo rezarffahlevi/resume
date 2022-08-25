@@ -8,11 +8,11 @@
         "text": "Check out my resume",
         "link": "https://github.com/rezarffahlevi"
     },
-    "resume": "https://github.com/rezarffahlevi",
+    "resume": "./resume.pdf",
     "github": "https://github.com/rezarffahlevi",
     "about_me": {
         "description": [
-            "Hello! My name is Reza Fahlevi, 23 years old and I enjoy creating things that live on the internet. Web & Mobile Developer with over 3 years experience. Familiar with creating, developing and repairing applications as per requirement and design. Can work in team, adjust SOP or pattern",
+            "Hello! My name is Reza Fahlevi, 23 years old, Bachelor of Information engineering - GPA 3.72 / 4.0 (Pamulang University) and I enjoy creating things that live on the internet. Web & Mobile Developer with over 3 years experience. Familiar with creating, developing and bug fixing applications as per requirement and design. Can work in team, adjust SOP or pattern.",
             "Fast forward to today, and I have the privilege of working for a health technology company. My primary focus today is building accessible, inclusive products and digital experiences for a wide range of clients."
         ],
         "skills": [

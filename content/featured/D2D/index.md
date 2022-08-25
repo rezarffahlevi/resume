@@ -11,4 +11,4 @@ tech:
   - Phoenix
 ---
 
-D2D is an application for Doctors that could provide rich information about scientific and medical update. D2D is very useful for supporting Doctors activities by utilizing the features that D2D has
+D2D is an application for Doctors that could provide rich information about scientific and medical update. D2D is very useful for supporting Doctors activities by utilizing the features that D2D has.
