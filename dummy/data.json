@@ -25,57 +25,8 @@
             "NodeJS",
             "MySQL",
             "MongoDB",
+            "GraphQL",
             "Objective C"
         ]
-    },
-    "experiences": [
-        {
-            "node": {
-                "frontmatter": {
-                    "title": "Mobile Developer",
-                    "company": "PT. Global Urban Esensial",
-                    "location": "Banten, ID",
-                    "range": "December 2019 - Present",
-                    "url": "https://www.guesehat.com/"
-                },
-                "html": "<ul>\n<li>Implementation PRD (Product Requirement Document) and design into applications.</li>\n<li>Develop, fix bugs, distribute and be responsible for the <a href=\"https://temanbumil.com\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Teman Diabetes</a> application</li>\n<li>Develop, fix bugs on <a href=\"https://temandiabetes.com\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Teman Bumil</a> and <a href=\"https://d2d.co.id\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">D2D</a> applications</li>\n<li>Write modern, performant, maintainable code for a diverse array of client and internal projects</li>\n<li>Work with a variety of different languages, platforms, frameworks, and content management systems such as Flutter & React Native</li>\n<li>Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis</li>\n</ul>"
-            }
-        },
-        {
-            "node": {
-                "frontmatter": {
-                    "title": "Frontend Developer",
-                    "company": "Telkomsigma",
-                    "location": "Jakarta, ID",
-                    "range": "October 2018 - December 2019",
-                    "url": "https://www.telkomsigma.co.id/"
-                },
-                "html": "<ul>\n<li>Work with project teams to create user-friendly and attractive interfaces for applications and websites. Customize mock-ups as needed to address the issue at hand.</li>\n<li>Develop, fix bugs and distribute M-Bike iOS and M-Bike CMS Admin apps.</li>\n<li>Develop, fix bugs NSAM Tools, Hirest, and Iris</li>\n</ul>"
-            }
-        },
-        {
-            "node": {
-                "frontmatter": {
-                    "title": "Web Developer (Intern)",
-                    "company": "Telkomsel",
-                    "location": "Jakarta, ID",
-                    "range": "February 2017 - Maret 2017",
-                    "url": "https://www.telkomsel.com/"
-                },
-                "html": "<ul>\n<li>Analyze, create, develop, fix bugs, and unit test the Telkomsel ICLIMA (Integrated Compliance Management System) application.</li>\n</ul>"
-            }
-        },
-        {
-            "node": {
-                "frontmatter": {
-                    "title": "Software Engineer",
-                    "company": "Freelance",
-                    "location": "Depok, ID",
-                    "range": "-",
-                    "url": "#jobs"
-                },
-                "html": "<ul>\n<li>PT. Resik Cemerlang : <a href=\"https://play.google.com/store/apps/details?id=com.rotate.deliveryorder\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Delivery Order</a> mobile app</li>\n<li>PT. Indonesia Comnet Plus : A web application for asset management, lending tools and car loan</li>\n<li><a href=\"https://hublagram.co.id/\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">Hublagram</a> mobile app</li>\n<li><a href=\"http://www.assuudiyyah.sch.id//\" target=\"_blank\" rel=\"nofollow noopener noreferrer\">SMK Assu'udiyyah</a> mobile app</li>\n</ul>"
-            }
-        }
-    ]
+    }
 }
