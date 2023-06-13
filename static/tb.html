@@ -1,0 +1,175 @@
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>TB Shortcut</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body class="bg-light">
+    <div class="container">
+        <div class="py-5 text-center">
+            <h2>Generate Template TB Screen</h2>
+        </div>
+        <div class="row code-row">
+            <div class="col-12 col-md-4">
+                <form onsubmit="return false">
+                    <div class="form-group">
+                        <label for="jsonEditor">Route Name</label>
+                    </div>
+                    <input class="form-control mb-2" id="route-name" placeholder="Your route name goes here">
+                    <button type="button" id="submit" onclick="generate()" class="btn btn-primary">Generate
+                        Dart</button>
+                    <!-- <button id="copy-clipboard" class="mt-2 btn btn-secondary" disabled="">Copy Dart code to
+                        clipboard</button> -->
+                </form>
+            </div>
+            <div class="col-12 col-md-8"><b id="invalid-dart" style="display: none">The Dart code generated is
+                    invalid</b>
+                <pre><code class="dart"></code></pre><textarea style="position:fixed;opacity: 0;"
+                    id="hidden-dart"></textarea>
+            </div>
+            <div id="result">
+
+            </div>
+        </div>
+        <footer class="my-5 pt-5 text-muted text-center text-small">
+            <p class="mb-1">created by Reza Fahlevi</p>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.4.min.js"
+        integrity="sha256-oP6HI9z1XaZNBrJURtCoUT5SUnxFr8s3BzRl+cbzUq8=" crossorigin="anonymous"></script>
+    <script>
+        let routeName;
+        let result;
+
+        $(function () {
+            routeName = $('#route-name');
+            result = $('#result');
+        });
+
+        const generate = () => {
+            let route = routeName.val();
+            let className = route?.split('-');
+            className = className?.map(dt => toUcFirst(dt))?.join('');
+            console.log(route, className);
+            let res = `
+                STATE
+                <code>
+                    <pre>
+                    ${state(route, className)}
+                    </pre>
+                </code>
+                <hr/>
+                BLOC
+                <code>
+                    <pre>
+                        ${bloc(route, className)}
+                    </pre>
+                </code>
+                <hr/>
+                UI
+                <code>
+                    <pre>
+                        ${ui(route, className)}
+                    </pre>
+                </code>
+                <hr/>
+
+            `
+            result.html(res);
+        }
+
+        const state = (route, name) => `
+        import 'package:equatable/equatable.dart';
+        import 'package:flutter_teman_bumil/src/resources/api_response.dart';
+
+        class ${name}State extends Equatable {
+            final ApiResponse<ModelName> data;
+            ${name}State({
+                this.data = const ApiResponse(),
+            });
+
+            ${name}State copyWith({
+                ApiResponse<ModelName>? data,
+            }) {
+                return ${name}State(
+                    data: data ?? this.data,
+                );
+            }
+
+            @override
+            List<Object?> get props => [
+                data,
+            ];
+        }`;
+
+        const bloc = (route, name) => `
+            class ${name}Bloc extends Cubit<${name}State> {
+                final RepoName? _repo = inject<RepoName>();
+
+                ${name}Bloc() : super(${name}State());
+
+                init() async {
+                    await eventOnRefresh();
+                }
+
+                eventOnRefresh() {
+                    emit(state.copyWith(
+                        data: ApiResponse.loading(),
+                    ));
+                    eventOnLoading();
+                }
+
+                eventOnLoading() async {
+                    try {
+                        final response = await _repo!.getData();
+
+                        emit(state.copyWith(
+                            data: ApiResponse.completed(response),
+                        ));
+                    } catch (e, s) {
+                        emit(state.copyWith(data: ApiResponse.error(e.toString())));
+                    }
+                }
+            }`;
+
+        const ui = (route, name) => `
+        import 'package:flutter/material.dart';
+        import 'package:pull_to_refresh/pull_to_refresh.dart';
+
+        class ${name}Screen extends StatefulWidget {
+            static const String routeName = '${route}';
+
+            const ${name}Screen({Key? key});
+
+            @override
+            State<${name}Screen> createState() => _${name}ScreenState();
+            }
+
+            class _${name}ScreenState extends State<${name}ScreenScreen> {
+            final bloc = inject<${name}Bloc>();
+
+            final RefreshController _refreshController = RefreshController(initialRefresh: false);
+            @override
+            void initState() {
+                bloc.init();
+                super.initState();
+            }
+
+            @override
+            Widget build(BuildContext context) {
+                return Container();
+            }
+        }`;
+        const toUcFirst = (string) => {
+            return string[0].toUpperCase() + string.slice(1).toLowerCase();
+        }
+    </script>
+</body>
+
+</html>

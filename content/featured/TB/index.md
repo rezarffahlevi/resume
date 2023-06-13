@@ -1,5 +1,5 @@
 ---
-date: '2'
+date: '1'
 title: 'Teman Bumil'
 cover: './demo.png'
 github: null
