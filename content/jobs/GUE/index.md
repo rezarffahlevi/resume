@@ -4,7 +4,7 @@ title: 'Mobile Developer'
 company: 'PT. GUE'
 location: 'Banten, ID'
 range: 'December 2019 - Present'
-url: 'https://www.guesehat.com/'
+url: 'https://www.gueecosystem.com/'
 ---
 
 - Implementation PRD (Product Requirement Document) and design into applications

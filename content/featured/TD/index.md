@@ -3,11 +3,12 @@ date: '2'
 title: 'Teman Diabetes Mobile App'
 cover: './demo.png'
 github: null
-external: 'https://temandiabetes.com/'
+external: 'https://play.google.com/store/apps/details?id=com.temandiabetes.android'
 tech:
   - React Native
   - Redux
   - BLE
 ---
 
-Aplikasi yang dapat memantau gula darah, tekanan darah, hingga makanan yang dikonsumsi, lalu membagikannya kepada dokter dan orang terdekat.
+Mengembangkan mobile apps Teman Diabetes dengan 10K+ Downloads 130 daily active users dan 97.98% crash-free.
+Menguraikan dan mendistribusikan task, mengimplementasikan log crashlytic untuk mempermudah tracing error, menambahkan firebase distribution untuk mempermudah proses development.

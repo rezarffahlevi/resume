@@ -10,7 +10,5 @@ tech:
   - RocketChat
 ---
 
-Aplikasi untuk Ibu Milenial
-Teman Bumil hadir dengan konten yang sangat relevan dengan budaya dan masyarakat Indonesia.
-
-Beragam fitur baru dalam aplikasi Teman Bumil, dirancang untuk menjadi teman terbaik bagi setiap ibu dalam setiap fase, yaitu program hamil, kehamilan, hingga parenting dan merawat si Kecil. Untuk melengkapi kebutuhan ibu milenial akan informasi, fitur baru di Teman Bumil dirancang dengan interaktif dan mudah diakses.
+Mengembangkan mobile apps Teman Bumil dengan 1M+ Downloads 33K+ daily active users dan 99.47% crash-free.
+Menguraikan dan mendistribusikan task, mengimplementasikan log crashlytic untuk mempermudah tracing error, menambahkan flavor untuk mempermudah proses development dan monitoring aplikasi production.
