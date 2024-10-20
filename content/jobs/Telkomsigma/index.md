@@ -7,6 +7,6 @@ range: 'October 2018 - December 2019'
 url: 'https://www.telkomsigma.co.id/'
 ---
 
-- Work with project teams to create user-friendly and attractive interfaces for applications and websites. Customize mock-ups as needed to address the issue at hand
-- Develop, fix bugs and distribute M-Bike iOS and M-Bike CMS Admin apps
-- Develop, fix bugs NSAM Tools, Hirest, and Iris
+- Collaborated with project teams to design and implement user-friendly and visually appealing interfaces for both applications and websites. Adapted mock-ups and wireframes to effectively resolve user experience challenges and project-specific requirements.
+- Development and maintenance of the M-Bike iOS app and M-Bike CMS Admin system, addressing and resolving bugs, and ensuring the seamless distribution of updates and features to enhance user experience and functionality.
+- Developed and maintained key software solutions, including NSAM Tools, Hirest, and Iris, identifying and fixing bugs to improve performance and reliability across diverse platforms.

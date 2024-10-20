@@ -7,9 +7,12 @@ range: 'December 2019 - Present'
 url: 'https://www.gueecosystem.com/'
 ---
 
-- Implementation PRD (Product Requirement Document) and design into applications
-- Develop, fix bugs, distribute and be responsible for the [Teman Bumil](https://temanbumil.com) and [Teman Diabetes](https://temandiabetes.com) application
-- Develop, fix bugs [D2D](https://d2d.co.id) applications
-- Write modern, performant, maintainable code for a diverse array of client and internal projects
-- Work with a variety of different languages, platforms, frameworks, and content management systems such as Flutter & React Native
-- Communicate with multi-disciplinary teams of engineers, designers, producers, and clients on a daily basis
+- Led a team of mobile developers in designing, developing, and deploying a stable mobile application, achieving a crash-free rate of up to 97%. The app garnered 2M+ downloads, maintained 200k monthly active users (MAU), and achieved a high user rating of 4.9 on play store & 4.7 on app store, reflecting exceptional user satisfaction and performance.
+- Ensured app security by implementing industry best practices, including encryption and secure authentication protocols, resulting in full compliance with ISO 27001 standards, safeguarding user data and ensuring regulatory adherence.
+- Architected scalable mobile solutions using Flutter & React Native optimizing code reusability and reducing development time by 30%.
+- Collaborated with cross-functional teams including product managers, designers, and backend developers to align on project goals and timelines.
+- Spearheaded the implementation of CI/CD pipelines, automating build and deployment processes for quicker and more efficient releases.
+- Integrated third-party APIs and SDKs, ensuring seamless functionality and enhancing app capabilities with minimal impact on performance.
+- Implemented analytics tracking (Google Analytics, Firebase) for user behavior insights, leading to data-driven feature enhancements.
+- Agent of innovation 2023 (Mums Budget: Analysis and recommendations for childbirth)
+- Champion 2 Ideation fest 2024 (Teman Promo: For add revenue from social media)
