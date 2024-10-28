@@ -10,5 +10,4 @@ tech:
   - BLE
 ---
 
-Mengembangkan mobile apps Teman Diabetes dengan 10K+ Downloads 130 daily active users dan 97.98% crash-free.
-Menguraikan dan mendistribusikan task, mengimplementasikan log crashlytic untuk mempermudah tracing error, menambahkan firebase distribution untuk mempermudah proses development.
+Developed the Teman Diabetes mobile app, reaching over 40K+ downloads, 400 monthly active users, and a 97.98% crash-free rate. Spearheaded task breakdown and assignment, implemented Crashlytics logging to streamline error tracing, and introduced Firebase Distribution to facilitate the development process.

@@ -7,8 +7,9 @@ external: 'https://play.google.com/store/apps/details?id=com.temanbumil.android&
 tech:
   - Flutter
   - BloC
+  - MVVM
+  - CI/CD
   - RocketChat
 ---
 
-Mengembangkan mobile apps Teman Bumil dengan 1M+ Downloads 33K+ daily active users dan 99.47% crash-free.
-Menguraikan dan mendistribusikan task, mengimplementasikan log crashlytic untuk mempermudah tracing error, menambahkan flavor untuk mempermudah proses development dan monitoring aplikasi production.
+Developed the Teman Bumil mobile app, achieving over 4M+ downloads, 200K monthly active users, and a crash-free rate of 99.47%. Led task breakdown and delegation, implemented Crashlytics logging for streamlined error tracing, and introduced app flavors to optimize development processes and enhance production monitoring.
