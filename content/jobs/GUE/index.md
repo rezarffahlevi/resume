@@ -3,7 +3,7 @@ date: '2022-12-21'
 title: 'Mobile Developer'
 company: 'GUE Ecosystem'
 location: 'Banten, ID'
-range: 'December 2019 - Present'
+range: 'December 2019 - October 2024'
 url: 'https://www.gueecosystem.com/'
 ---
 

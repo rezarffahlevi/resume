@@ -1,9 +1,9 @@
 {
   "name": "Reza Fahlevi.",
   "title": "I build things for mobile & web.",
-  "description": "I’m a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I’m focused on building accessible, health tech products at",
-  "work": "PT. Global Urban Esensial (Member of Dexa Group)",
-  "workLink": "https://www.guesehat.com/",
+  "description": "As a dedicated software engineer, I specialize in crafting innovative digital solutions that deliver exceptional user experiences. Currently, I’m looking for new opportunities to bring my expertise and passion for technology to impactful projects.",
+  "work": null,
+  "workLink": null,
   "button": {
     "text": "Check out my resume",
     "link": "./resume.pdf"
@@ -16,18 +16,18 @@
       "Fast forward to today, and I have the privilege of working for a health technology company. My primary focus today is building accessible, inclusive products and digital experiences for a wide range of clients."
     ],
     "skills": [
-      "Flutter (BLoC, Provider)",
+      "Flutter (BLoC, Provider, RxDart)",
       "React Native & ReactJS with Redux",
       "NextJS, GatsbyJS, AngularJS",
       "REST API & Git Versioning Control",
       "PHP (Native, Laravel, CodeIgniter)",
-      "HTML, CSS, JavaScript",
+      "HTML, CSS, JavaScript, Typescript",
       "NodeJS",
       "MySQL",
       "MongoDB",
       "GraphQL",
       "Objective C",
-      "Firebase, Tailwind"
+      "Firebase, Tailwind CSS"
     ]
   }
 }

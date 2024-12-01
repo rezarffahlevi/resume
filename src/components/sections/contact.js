@@ -70,22 +70,22 @@ const Contact = () => {
           {
             // title: 'Juara 2 Se-Kota Depok',
             desc: '',
-            publicURL: kompetensi
+            publicURL: kompetensi,
           },
           {
             // title: 'Juara 2 Se-Kota Depok',
             desc: '',
-            publicURL: depok
+            publicURL: depok,
           },
           {
             // title: 'Workshop Web App Security',
             desc: '',
-            publicURL: inixindo
+            publicURL: inixindo,
           },
           {
             // title: 'Sertifikat Magang',
             desc: '',
-            publicURL: magang
+            publicURL: magang,
           },
         ]}
       />
@@ -94,7 +94,7 @@ const Contact = () => {
       <h2 className="title">Get In Touch</h2>
 
       <p>
-        Although I’m not currently looking for any new opportunities, my inbox is always open.
+        {/* Although I’m not currently looking for any new opportunities, my inbox is always open. */}
         Whether you have a question or just want to say hi, I’ll try my best to get back to you!
       </p>
 
@@ -106,4 +106,3 @@ const Contact = () => {
 };
 
 export default Contact;
-
